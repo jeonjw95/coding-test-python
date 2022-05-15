@@ -1,3 +1,4 @@
+# 복잡도: O(coins)
 def change_coin_count(change):
     coins = (500, 100, 50, 10)
     n = 0
