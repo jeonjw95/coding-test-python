@@ -1,3 +1,3 @@
 num = 1234
 
-print(list(map(int, list(str(num)))))
+print([0, 1, 2].remove(0))
