@@ -1,3 +1,13 @@
-num = 1234
+# visited = {}
+#
+# for a in range(64, 90):
+#     alpha = chr(a + 1)
+#     visited[alpha] = 0
+#
+# print(visited)
 
-print([0, 1, 2].remove(0))
+visited = [0] * 26
+visited[0] = 1
+visited[2] = 1
+
+print(visited[ord('C') - 65])
