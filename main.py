@@ -6,8 +6,8 @@
 #
 # print(visited)
 
-visited = [0] * 26
-visited[0] = 1
-visited[2] = 1
+a = []
+a.append(1)
+a.append(2)
 
-print(visited[ord('C') - 65])
+print(a.pop())
